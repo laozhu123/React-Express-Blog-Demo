@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {Input, Form, Icon, Button} from 'antd'
 const FormItem = Form.Item;
 import style from './style.css'
-
+// just have one commit
 class LoginFormCom extends Component {
     constructor(props) {
         super(props);
