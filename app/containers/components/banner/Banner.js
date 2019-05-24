@@ -3,9 +3,9 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import style from './style.css'
 import { Carousel } from 'antd';
 const carouselImgs = [
-    require('./banner_1.png'),
-    require('./banner_2.png'),
-    require('./banner_3.png'),
+    'https://wxgym.oss-cn-hangzhou.aliyuncs.com/blog/banner_1.png',
+    'https://wxgym.oss-cn-hangzhou.aliyuncs.com/blog/banner_2.png',
+    'https://wxgym.oss-cn-hangzhou.aliyuncs.com/blog/banner_3.png',
 ]
 export default class Banner extends Component{
     constructor(props){
